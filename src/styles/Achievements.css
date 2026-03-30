@@ -1,0 +1,48 @@
+.achieve-section {
+  padding: 80px 20px;
+}
+
+.achieve-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+/* SAME STYLE AS SKILLS */
+.achieve-card {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  background: transparent;
+  transition: 0.3s ease;
+}
+
+.achieve-card:hover {
+  transform: translateY(-8px);
+  border-color: #00bcd4;
+  box-shadow: 0 0 20px rgba(0, 188, 212, 0.3);
+}
+
+.achieve-card h3 {
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.achieve-desc {
+  color: #ccc;
+  font-size: 14px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 40px;
+  color: #00bcd4;
+  margin-bottom: 40px;
+}
+
+
+
+.achieve-container .section-title {
+  grid-column: 1 / -1;
+}
